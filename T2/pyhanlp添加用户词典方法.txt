@@ -1,0 +1,8 @@
+进入  python目录\Lib\site-packages\pyhanlp\static\data\dictionary\custom
+复制"泰迪杯地名词典.txt"进去
+删除 CustomDictionary.txt.bin 这个文件，没有的话就不用管
+进入  python目录\Lib\site-packages\pyhanlp\static
+编辑 hanlp.properties
+在 CustomDictionaryPath=data/dictionary/custom/CustomDictionary.txt; 这行后面添加" 泰迪杯地名词典.txt ns;" 开头有空格
+修改之后为 CustomDictionaryPath=data/dictionary/custom/CustomDictionary.txt; 泰迪杯地名词典.txt ns; 现代汉语补充词库.txt...此处省略其他词典名
+到此用户词典就添加完了
